@@ -8,7 +8,7 @@ querystring = {"category":"generalnews","region":"IN"}
 
 headers = {
     'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com",
-    'x-rapidapi-key': "5b9fba41ddmsh2f2caea5dd3684bp13a7a2jsna70b2449b028"
+    'x-rapidapi-key': "-Your-Api-Key-Here-"
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
