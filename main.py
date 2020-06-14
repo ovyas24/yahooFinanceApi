@@ -1,5 +1,4 @@
 from flask import Flask,render_template
-from darksky.api import DarkSky
 import requests
 
 url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/news/list"
