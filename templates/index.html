@@ -1,0 +1,16 @@
+{% include 'header.html' %}
+
+		<ul class="list-group">
+  		<!--<li class="list-group-item active">Top ten Finence News</li>-->
+		{% for i in news%}
+		<li class="list-group-item">
+			<div class="card">
+				<div class="card-body">
+					<p class="card-text">{{i[0]}}</p>
+					<a href="{{i[1]}}" class="btn btn-primary">Learn More</a>
+				</div>
+			</div>
+		</li>
+		{%endfor%}
+		</ul>
+{% include 'footer.html' %}
